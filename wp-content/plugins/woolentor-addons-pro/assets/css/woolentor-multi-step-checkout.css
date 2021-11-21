@@ -1,0 +1,158 @@
+.woolentor-msc-tabs-menu {
+	width: 100%;
+	display: block;
+	margin: 0 auto 25px;
+	overflow: hidden;
+	padding: 0 20px;
+}
+.woolentor-msc-tabs-menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.woolentor-msc-tabs-menu ul li.woolentor-msc-tab-item {
+	float: left;
+}
+
+.woolentor-msc-tabs-menu ul.woolentor-msc-tabs-1 li.woolentor-msc-tab-item {
+	width: 100%;
+}
+
+.woolentor-msc-tabs-menu ul.woolentor-msc-tabs-2 li.woolentor-msc-tab-item {
+	width: 50%;
+}
+
+.woolentor-msc-tabs-menu ul.woolentor-msc-tabs-3 li.woolentor-msc-tab-item {
+	width: 33%;
+}
+
+.woolentor-msc-tabs-menu ul.woolentor-msc-tabs-4 li.woolentor-msc-tab-item {
+	width: 25%;
+}
+
+.woolentor-msc-tabs-menu ul.woolentor-msc-tabs-5 li.woolentor-msc-tab-item {
+	width: 20%;
+}
+
+.woolentor-msc-tabs-menu ul.woolentor-msc-tabs-6 li.woolentor-msc-tab-item {
+	width: 16.6%;
+}
+
+.woolentor-msc-tabs-menu ul li.woolentor-msc-tab-item span{
+	color: #aaa;
+}
+
+.woolentor-msc-tabs-menu ul li.woolentor-msc-tab-item .woolentor-tab-number-text {
+    background: #eee;
+    padding: 10px 12px;
+    line-height: 40px;
+    font-size: 16px;
+    display: block;
+    margin-right: 40px;
+    position:relative;
+}
+.woolentor-msc-tabs-menu ul li.woolentor-msc-tab-item:last-child .woolentor-tab-number-text{
+	margin-right: 0px;
+}
+.woolentor-msc-tabs-menu ul li.woolentor-msc-tab-item .woolentor-tab-number-text:after, .woolentor-msc-tabs-menu ul li.woolentor-msc-tab-item .woolentor-tab-number-text:before {
+    width: 0;
+    height: 0;
+    position: absolute;
+    content: "";
+    top: 0;
+}
+.woolentor-msc-tabs-menu ul li.woolentor-msc-tab-item .woolentor-tab-number-text:before {
+    left: -20px;
+}
+.woolentor-msc-tabs-menu ul li.woolentor-msc-tab-item .woolentor-tab-number-text:after {
+    right: -20px;
+}
+
+.woolentor-msc-tabs-menu ul li.woolentor-msc-tab-item .woolentor-tab-number-text:before {
+    border-top: 30px solid #eee;
+    border-bottom: 30px solid #eee;
+    border-left: 20px solid transparent;
+}
+
+.woolentor-msc-tabs-menu ul li.woolentor-msc-tab-item .woolentor-tab-number-text:after {
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 20px solid #eee;
+}
+
+.woolentor-msc-tabs-menu ul li.woolentor-msc-tab-item.current .woolentor-tab-number-text{
+	background: #0274be;
+}
+.woolentor-msc-tabs-menu ul li.woolentor-msc-tab-item.current .woolentor-tab-number-text:before{
+	border-top-color: #0274be;
+	border-bottom-color: #0274be;
+}
+.woolentor-msc-tabs-menu ul li.woolentor-msc-tab-item.current .woolentor-tab-number-text:after{
+	border-left-color: #0274be;
+}
+
+.woolentor-msc-tabs-menu .woolentor-msc-tab-item.current span{
+	color: #fff;
+}
+
+.woocommerce-checkout .woocommerce .woolentor-msc-tabs-menu form label.error {
+	color: #e23636 !important;
+}
+
+.woolentor-msc-nav-wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+	margin-top: 1em;
+	width: calc( 100% + 4px );
+	clear: both;
+}
+
+button#woolentor-msc-back-to-cart {
+	margin-right: auto;
+}
+
+.woocommerce .woolentor-msc-nav-wrapper button.woolentor-msc-nav-button {
+	margin-right: 2px;
+	margin-left: 2px;
+}
+
+.woocommerce .woolentor-msc-nav-wrapper button#woolentor-msc-prev, .woocommerce .woolentor-msc-nav-wrapper button#woolentor-msc-next, .woocommerce .woolentor-msc-nav-wrapper button#woolentor-msc-skip-login {
+	display: none !important;
+}
+
+.woocommerce .woolentor-msc-nav-wrapper button#woolentor-msc-prev.current, .woocommerce .woolentor-msc-nav-wrapper button#woolentor-msc-next.current, .woocommerce .woolentor-msc-nav-wrapper button#woolentor-msc-skip-login.current  {
+	display: inline-block !important;
+}
+
+.woolentor-msc-step-item {
+	display: none !important;
+}
+
+.woolentor-msc-step-item.current {
+	display: block !important;
+}
+
+.woocommerce-checkout form.login .wc-social-login {
+	display: block !important;
+}
+
+.woocommerce-checkout .woolentor-msc-step-item #order_review,
+.woocommerce-checkout .woolentor-msc-step-item #order_review_heading {
+	width: 100%;
+}
+
+.woolentor-msc-step-item h3{
+	margin-bottom: 15px;
+}
+.woocommerce-page.woocommerce-checkout .woolentor-msc-step-review table.shop_table td{
+	padding:10px;
+}
+
+span.woolentor-error-class {
+    color: red;
+}
